@@ -1,0 +1,52 @@
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.dvi
+*.ps
+
+# Generated PDFs (built locally)
+notebook_read.pdf
+notebook_print.pdf
+printmode.flag
+
+# OS/editor junk
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+a.out
+
+*.sln
+*.sdf
+*.vcxproj
+*.filters
+*.opendb
+
+Debug
+Release
+x64
+.vs
+*.exe
+
+!suffix-array.pdf
+!cheat_sheet.pdf
+
+contents.tex
