@@ -1,0 +1,151 @@
+# Any line followed by a '#' character is ignored
+# Section headings must be in square brackets
+# Subsections within a section should follow the format:
+#   [filename within code directory][tab character \t][subsection title]
+
+[Data structures]
+#SuffixArray.cpp	Suffix array (reemplazado por versión con LCP)
+BIT.cpp	Binary Indexed Tree
+UnionFind.cpp	Union-find set
+KDTree.cpp	KD-tree
+splay.cpp	Splay tree
+SegmentTreeLazy.java	Lazy segment tree
+SegmentTreeLazy.cpp	Segment tree (range flip + sum)
+SparseTable.cpp	Sparse table (RMQ/idempotent)
+MonotonicQueue.cpp	Monotonic queue (sliding window)
+LCA.cpp	Lowest common ancestor
+MosAlgorithm.cpp	Mo's algorithm (offline range queries)
+EulerTour_Queries.cpp	Euler tour + mapping to arrays
+BinaryLiftingExtras.cpp	Binary lifting (LCA, kth ancestor, predicate jump)
+RerootingDP.cpp	Rerooting DP (generic)
+CentroidDecomposition.cpp	Centroid decomposition (template)
+Fenwick2D.cpp	Fenwick tree 2D (BIT)
+DisjointSparseTable.cpp	Disjoint Sparse Table (static RMQ)
+SqrtDecomposition.cpp	Sqrt decomposition (range sum + point update)
+BinaryTrieXOR.cpp	Binary trie (XOR queries)
+ConvexHullTrick.cpp	Convex Hull Trick (dynamic max)
+LiChaoTree.cpp	Li Chao tree (min queries)
+HeavyLightDecomposition.cpp	Heavy-Light Decomposition + segtree
+LinkCutTree.cpp	Link-Cut Tree (dynamic trees)
+DSU_Rollback.cpp	DSU with rollback (offline)
+DSU_On_Tree_Sack.cpp	DSU on tree (Sack) template
+
+[Strings]
+AhoCorasick.cpp	Aho-Corasick (múltiples patrones)
+KMP.cpp	Knuth-Morris-Pratt
+ZFunction.cpp	Z-function (linear)
+Manacher.cpp	Manacher (longest palindromic substring)
+RollingHash.cpp	Rolling hash (double mod)
+SuffixAutomaton.cpp	Suffix Automaton (SAM)
+PalindromicTree_Eertree.cpp	Palindromic Tree (Eertree)
+Booth_Duval.cpp	Booth (min rotation), Duval (Lyndon)
+KMP_Automaton.cpp	KMP automaton (pattern DFA)
+LCP_RMQ_Pack.cpp	LCP RMQ pack for LCE queries
+AC_Automaton_Weighted.cpp	Aho-Corasick with weights/counts
+SuffixArrayLCP.cpp	Suffix array + LCP (Kasai)
+
+[Graphs]
+#BellmanFord.cpp	Bellman-Ford shortest paths with negative edge weights (C++)
+#DijkstraFloyd.cpp	Dijkstra and Floyd's algorithm (C++)
+FastDijkstra.cpp	Fast Dijkstra's algorithm
+BFS01.cpp	0-1 BFS (shortest paths 0/1 weights)
+SCC.cpp	Strongly connected components
+EulerianPath.cpp	Eulerian path
+#Kruskal.cpp	Kruskal's algorithm
+#Prim.cpp	Minimum spanning trees
+
+[Graphs++]
+#MaxFlow.cpp	Dense max-flow
+Dinic.cpp	Sparse max-flow
+PushRelabel.cpp	Push-relabel max-flow	
+MinCut.cpp	Global min-cut
+GraphCutInference.cpp	Graph cut inference
+#MinCostMaxFlow.cpp	Min-cost max-flow (reemplazado por plantilla moderna)
+#MaxBipartiteMatching.cpp	Max bipartite matching (reemplazado por Hopcroft-Karp)
+#MaxFlow.java	Max-flow (Java)
+#MinCostMaxFlow.java	Min-cost max-flow (Java)
+TwoSAT.cpp	2-SAT (implication graph + SCC)
+MST_Kruskal_Prim.cpp	MST (Kruskal/Prim) + critical edges
+DinicScaling.cpp	Dinic with capacity scaling
+GomoryHuTree.cpp	Gomory-Hu min-cut tree
+MosOnTree_Hilbert.cpp	Mo on trees (Hilbert)
+CDQ_Offline3D.cpp	CDQ offline D&C (3D dominance)
+BridgesArticulation_BCC.cpp	Bridges, articulation points, BCC
+TopoSort_DAG_LongestPath.cpp	Toposort and longest path in DAG
+BellmanFord_SPFA.cpp	Bellman-Ford and SPFA (neg cycles)
+MinMeanCycle_Karp.cpp	Minimum mean cycle (Karp)
+KShortestPaths_Yen.cpp	K-shortest paths (Yen)
+MultiSourceDijkstra.cpp	Multi-source Dijkstra
+
+HopcroftKarp.cpp	Hopcroft-Karp (matching bipartito)
+Hungarian.cpp	Hungarian (assignment problem)
+MinCostMaxFlowPotentials.cpp	Min-cost max-flow (potenciales)
+
+[Dynamic programming]
+LongestIncreasingSubsequence.cpp	Longest increasing subsequence (strict and non-strict)
+Kadane.cpp	Maximum subarray sum (Kadane)
+SubsetSum.cpp	Subset sum (0/1 decision)
+Knapsack01.cpp	0/1 knapsack (max value)
+CoinChange.cpp	Coin change (ways and min coins)
+DigitDP.cpp	Digit DP (sum of digits divisible by m)
+ProbabilityDP_Dice.cpp	Dice sums probabilities (DP)
+ExpectedValueDP_Rolls.cpp	Expected rolls to reach target
+MarkovSmall.cpp	Markov chains (small state DP)
+MeetInTheMiddle.cpp	Meet-in-the-middle (subset sums)
+BitmaskDP_Templates.cpp	Bitmask DP templates (submasks, TSP)
+BitmaskTricks.cpp	Bitmask tricks + SOS DP
+DP_Optimizations.cpp	DP optimizations (D&C, Knuth, Quadrangle, CHT)
+InverseSOS_SubsetConvolution.cpp	Inverse SOS and subset convolution
+TSP_HeldKarp_Reconstruct.cpp	TSP Held-Karp with reconstruction
+
+[Numerical algorithms]
+Euclid.cpp	Number theory (modular, Chinese remainder, linear Diophantine)
+GaussJordan.cpp	Systems of linear equations, matrix inverse, determinant
+ReducedRowEchelonForm.cpp	Reduced row echelon form, matrix rank
+FFT_new.cpp	Fast Fourier transform
+Simplex.cpp	Simplex algorithm
+#FFT.cpp	Fast Fourier transform (C++)
+PrimesSieve.cpp	Sieve of Eratosthenes (linear, SPF)
+MillerRabinDet.cpp	Primality test (deterministic 64-bit)
+SegmentedSieve.cpp	Segmented sieve (primes in [L,R])
+MatrixExponentiation.cpp	Matrix exponentiation (power)
+CombinatoricsMod.cpp	Combinatorics nCr mod prime (factorials)
+NumericalIntegration.cpp	Simpson integration (composite + adaptive)
+ModularArithmetic.cpp	Modular arithmetic (mul, pow, inverse)
+CRT_Garner.cpp	CRT (general) and Garner's algorithm
+DivisorsTotientMobius.cpp	Divisors count/sum, phi and mobius (sieves)
+InclusionExclusion.cpp	Inclusion-Exclusion (patterns)
+BinomialDP_Pascal.cpp	Binomial coefficients (Pascal DP)
+NTT.cpp	NTT convolution (mod 998244353)
+PollardRho.cpp	Miller-Rabin + Pollard-Rho factorization
+BSGS.cpp	Discrete logarithm (BSGS)
+Kitamasa_BerlekampMassey.cpp	Linear recurrences (BM + Kitamasa)
+XOR_Basis_Bitset.cpp	XOR linear basis and bitset Gaussian
+
+[Geometry]
+ConvexHull.cpp	Convex hull
+Geometry.cpp	Miscellaneous geometry
+JavaGeometry.java	Java geometry
+Geom3D.java	3D geometry
+Delaunay.cpp	Slow Delaunay triangulation
+#Delaunay.java	Slow Delaunay triangulation (Java)
+ConvexPolygonDiameter.cpp	Convex polygon diameter (rotating calipers)
+ConvexPolygonIntersection.cpp	Intersection of convex polygons (O(n+m))
+HalfPlaneIntersection.cpp	Half-plane intersection (convex polygon)
+MinkowskiSum.cpp	Minkowski sum of convex polygons
+
+[Miscellaneous]
+Dates.cpp	Dates
+LogLan.java	Regular expressions
+#Primes.cpp	Prime numbers (see Numerical: Sieve + MR)
+IO.cpp	C++ input/output
+LatLong.cpp	Latitude/longitude
+EmacsSettings.txt	Emacs settings
+#TopologicalSort.cpp	Topological sort (C++)
+#Dates.java	Dates (Java)
+#DecFormat.java	Decimal output formatting (Java)
+#RandomSTL.cpp	Random STL stuff
+#CSP.cpp	Constraint satisfaction problems
+#FastExpo.cpp	Fast exponentiation
+#LCS.cpp	Longest common subsequence
+#MillerRabin.c	Miller-Rabin Primality Test (C)
